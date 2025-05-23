@@ -1,42 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Realm of Chaos</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-  <link href="/RealmOfChaos/style.css" rel="stylesheet">
-  <style>
-    body { background: linear-gradient(to bottom, #000000, #4B0082); color: #FFFFFF; font-family: 'Arial', sans-serif; }
-    h1 { text-shadow: 0 0 10px #C71585; color: #4B0082; }
-  </style>
-</head>
-<body>
-  <header class="neon-header">
-    <h1>REALM OF CHAOS</h1>
-    <p>Surrender to @G0ddessEris</p>
-  </header>
-  <section class="tiers">
-    <h2>CHOOSE YOUR PATH</h2>
-    <div class="tabs">
-      <input type="radio" name="tabs" id="tab1" checked>
-      <label for="tab1">$5 - Neophyte</label>
-      <!-- Other tabs -->
-      <div class="tab-content" id="content1">
-        <h3>Neophyte - $5/month</h3>
-        <p>Step into the Warp’s secrets.</p>
-        <a href="https://patreon.com/GoddessEris" class="neon-button">Join Now</a>
-      </div>
-      <!-- Other tab contents -->
-    </div>
-  </section>
-  <section class="urgency">
-    <p class="counter">Only 8 slots remain this cycle!</p>
-  </section>
-  <section class="testimonials">
-    <h2>VOICES FROM THE WARP</h2>
-    <p>@NeonSlut420: "This is my obsession. Join now."</p>
-    <p>@ChaosSiren: "GoddessEris changed everything. Don’t wait."</p>
-  </section>
-</body>
-</html>
+body {
+  background: linear-gradient(to bottom, #000000, #4B0082) !important;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  animation: gradientShift 10s ease infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.neon-header h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 10px #C71585, 0 0 20px #C71585;
+  color: #4B0082;
+  font-size: 2.8em;
+}
+.tab-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid #00CED1;
+  padding: 20px;
+}
+.neon-button {
+  background: #C71585;
+  border: 2px solid #00CED1;
+  box-shadow: 0 0 10px #C71585;
+  transition: all 0.3s;
+}
+.neon-button:hover {
+  box-shadow: 0 0 20px #00CED1;
+  filter: brightness(150%);
+}
+.counter {
+  color: #C71585;
+  animation: blink 1s infinite;
+}

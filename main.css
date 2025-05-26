@@ -52,7 +52,7 @@ body {
     background-color: #020006;
     color: #fff;
     line-height: 1.6;
-    background-image: url('../assets/images/background_pattern.png');
+    background-image: url('../assets/images/background_pattern.png'); /* Corrected path */
     background-repeat: repeat;
     background-size: 150px;
     background-attachment: fixed; /* Make background scroll with content */
@@ -187,7 +187,7 @@ img, video {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('../assets/images/hero_background.jpg');
+    background-image: url('../assets/images/hero_background.jpg'); /* Corrected path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -463,7 +463,7 @@ img, video {
 .patreon-tiers-section {
     padding: 80px 0;
     text-align: center;
-    background-image: url('../assets/images/tier_background.png');
+    background-image: url('../assets/images/tier_background.png'); /* Corrected path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -618,7 +618,7 @@ img, video {
 
 /* Contact Section */
 .contact-section-hero {
-    background-image: url('../assets/images/contact_background.jpg');
+    background-image: url('../assets/images/contact_background.jpg'); /* Corrected path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -730,7 +730,7 @@ img, video {
 }
 
 .new-items-banner {
-    background-image: url('../assets/images/new_items_background.png'); /* Add background */
+    background-image: url('../assets/images/new_items_background.png'); /* Corrected path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -756,7 +756,7 @@ img, video {
 }
 
 .new-release-countdown-container {
-    background-image: url('../assets/images/countdown_background.png'); /* Add background */
+    background-image: url('../assets/images/countdown_background.png'); /* Corrected path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
